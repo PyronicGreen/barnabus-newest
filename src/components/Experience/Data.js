@@ -29,10 +29,12 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topLine: 'Guest Experience',
     headline: 'Parties made for you',
-    description: `Barnabus makes going out easier than ever. Just open the app to find the sort of events perfect for your
-     unique interests and the hosts who put on the best parties. Reserve a space with a mere tap of the screen. Never wait 20 minutes
-     to order a drink, get overcharged, lose a credit card or have to open a bar tab again. Not only that, but by using Barnabus,
-     Guests accrue Barnabucks which they can put towards free drinks or other promotions.`,
+    description: `Barnabus makes going out easier than ever. Just open the app
+     to find the sort of events perfect for your unique interests and the hosts
+      who put on the best parties. Reserve a space with a mere tap of the screen.
+    Never wait 20 minutes to order a drink. Never get overcharged. Never lose a
+     credit card or have to open a bar tab again. By using Barnabus, our hosts will
+     invite you to the best parties and you'll also be eligible for free drinks and other promotions.`,
     buttonLabel: 'Create an Account',
     imgStart: true,
     img: require('../../images/dresses-cheers.jpg').default,
@@ -73,7 +75,7 @@ export const homeObjFour = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Space Experience',
-    headline: 'No More Advertising',
+    headline: 'No more advertising',
     description: `As a bar owner or manager, you've surely spent more time than you'd like thinking how to get butts in seats.
     Flyers just wind up in the garbage, and do people even look at sandwich boards? Why endure slow nights and rely on blind
      luck to get walk-in business? Guarantee your guest count and separate yourself from the competition by allowing Barnabus Hosts
@@ -89,6 +91,8 @@ export const homeObjFour = {
 
 export const homeObjFive = {
     id: 'signup',
+    nextid: 'signup',
+    buttonTitle: 'Download App',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
